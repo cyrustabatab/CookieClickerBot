@@ -17,7 +17,7 @@ def upgrade_if_possible():
     print("Cookies",cookies)
 
 
-    enabled_buttons = driver.find_elements_by_css_selector('div.enabled')
+    enabled_buttons = driver.find_elements_by_css_selector('#products div.enabled')
     enabled_prices = driver.find_elements_by_css_selector('div.enabled .price')
     
     
